@@ -78,7 +78,8 @@
   gap: 158px;
  }
  .productive-users{
-    background-color:rgb(197, 195, 231) ;
+    background-color:rgb(197, 195, 231);
+    border-radius: 20px;
     padding: 30px 20px ;
     margin-left: 100px;
     margin-right: 100px;
@@ -96,3 +97,48 @@
   font-weight: 400;
   font-size: 20px;
 }
+/* card styles */
+.designer-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+  color: rgba(37, 36, 50, 1);
+}
+.card-containers{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: whitesmoke ;
+  padding: 20px;
+  width: 366px;
+  height: 243px;
+  text-align: left;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+/* ready focus banner */
+.ready-focus{
+   justify-content: center;
+}
+.heading{
+  font-weight: bold;
+  font-size: 50px;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.heading-title{
+  text-align: center;
+}
+.wc-banner-img{
+  width:840px ;
+  height: 365px;
+  border-radius: 30px;
+  margin-top: 40px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 100px;
+  }
+  
