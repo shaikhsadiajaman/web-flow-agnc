@@ -122,7 +122,10 @@
 /* ready focus banner */
 .ready-focus{
    justify-content: center;
-   }
+   background-color: whitesmoke;
+   padding: 20px;
+   border-radius: 20px;
+  }
 .heading{
   font-weight: bold;
   font-size: 50px;
@@ -137,11 +140,10 @@
   height: 365px;
   border-radius: 30px;
   margin-top: 40px;
-  margin-left: 350px;
+  margin-left: 320px;
   margin-right: 350px;
   margin-bottom: 50px;
-  background-color: whitesmoke;
-  }
+}
 /* form styles */
 .action-form{
 display: flex;
