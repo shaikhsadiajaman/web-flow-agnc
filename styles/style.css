@@ -20,7 +20,7 @@
   color: rgba(255, 255, 255, 1);
   background-color:rgba(78, 71, 255, 1) ;
   width: 132px;
-  height: 48px;
+  height: 38px;
   border-radius: 10px;
   margin-top: 30px;
   margin-bottom: 100px;
@@ -32,7 +32,36 @@
   text-align: center;
   font-weight: bold;
   font-size: 60px;
+  color: rgba(37, 36, 50, 1);
 }
 .secondary-bg{
   background-image:url(../images/Hero-bg.png);
+}
+.banner-container{
+  display: flex;
+  margin: 100px 100px 100px 100px;
+  justify-content: space-between;
+}
+.action-title{
+  font-weight: bold;
+  font-size: 42px;
+  color: rgba(37, 36, 50, 1);
+}
+.banner-sub-title{
+  font-weight: normal;
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+}
+.action-btn{
+  font-weight: bold;
+  font-size: 16px;
+  color:rgba(255, 255, 255, 1) ;
+  background-color:rgba(78, 71, 255, 1) ;
+  width: 229px ;
+  height: 48px;
+  border-radius: 10px;
+  border: none;
+}
+.banner-image{
+  border-radius: 50px;
 }
