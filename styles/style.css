@@ -140,6 +140,7 @@
   margin-left: 350px;
   margin-right: 350px;
   margin-bottom: 50px;
+  background-color: whitesmoke;
   }
 /* form styles */
 .action-form{
@@ -174,4 +175,34 @@ justify-content: center;
   border: none;
   cursor: pointer;
   margin-left: 20px;
+}
+/* footer styles */
+.footer-content{
+justify-content: center;
+  /* margin-left: 400px;
+  margin-right: 400px; */
+  background-color: whitesmoke;
+  padding: 20px;
+}
+  
+  
+.footer-title{
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: rgba(78, 71, 255, 1);
+  margin: 0;
+  padding: 0;
+}
+ .footer-sub-title{
+  margin-top: 0 auto;
+  text-align: center;
+
+}
+.footer-items{
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-around; */
+  margin-bottom: 100px;
+  justify-content: center;
 }
