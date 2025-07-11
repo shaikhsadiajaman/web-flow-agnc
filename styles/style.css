@@ -61,7 +61,38 @@
   height: 48px;
   border-radius: 10px;
   border: none;
-}
+  cursor: pointer;
+  }
 .banner-image{
   border-radius: 50px;
+}
+.bnr-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 38px;
+  color: rgba(37, 36, 50, 1);
+}
+.user-items{
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+ }
+ .productive-users{
+    background-color:rgb(197, 195, 231) ;
+    padding: 30px 20px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.user-title{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+  color: rgba(78, 71, 255, 1) ;
+}
+.user-description{
+  font-weight: 400;
+  font-size: 20px;
 }
